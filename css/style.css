@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #250541;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.card {
+   width: 470px;
+    max-width: 1000px;
+    margin-bottom: 11px;
+    padding-bottom: 17px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 35px;
+    background: #16A085;
+    background: -webkit-linear-gradient(to right, #F4D03F, #16A085); 
+    background: linear-gradient(to right, #F4D03F, #16A085); 
+ 
+}
+
+.city {
+    padding: 24px;
+   
+    justify-content: space-between;
+    margin-top: 35px;
+
+}
+
+.city input {
+    background:rgb(239 239 239);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 365px;
+    text-align: center;
+    height: 50px;
+}
+
+.city button {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+   background: rgb(239 239 239);
+}
+
+.city button img {
+    width: 15px;
+    height: 15px;
+}
+.weather-logo {
+    width: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+
+}
+.weather-logo .icon{
+    margin: 0px 0px 12px;
+}
+.weather-logo .icon .center-img{
+    height: 160px;
+    width: 160px;
+    margin-top:37px;
+}
+.weather-logo .icon h1{
+    font-size: 50px;
+}
+.weather-logo .icon h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -18px;
+}
+.weather-logo .details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 51px;
+    width: 504px;
+    margin-left: -147px;
+}
+.col{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.col img{
+    height: 30px;
+    width: 30px;
+}
+.col .para{
+    margin: -5px 10px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+.weather-logo{
+    display: none;
+}
+.error{
+    color: rgb(100 100 100);
+    padding: 6px;
+    text-align: left;
+    display: none;
+    transition:cubic-bezier(0.215, 0.610, 0.355, 1);
+}

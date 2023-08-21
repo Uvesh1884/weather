@@ -1,0 +1,12 @@
+body{
+    padding: 12px;
+}
+.card{
+    max-width: 376px;
+    margin: 132px auto;
+
+}
+
+.city input{
+    width: 272px;
+}
